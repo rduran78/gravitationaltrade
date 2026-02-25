@@ -44,6 +44,14 @@ The notebooks are designed to be run **sequentially**. Later notebooks assume th
 
 ## Notebooks
 
+
+### `00_Trade_Pipeline_Consolidado.ipynb`  
+**Pipeline consolidado y operable**
+
+Notebook único de operación para correr el flujo con configuración centralizada de rutas, logging a archivo, seguimiento de progreso y salidas organizadas por etapa. Está pensado como punto de entrada robusto para producción local en `C:\Python\trade` sin hardcodear subrutas internas.
+
+---
+
 ### `01 Centroids and OD Matrix.ipynb`  
 **Geographic backbone construction**
 
